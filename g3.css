@@ -59,3 +59,40 @@ button > a{
     height: 100%;
     width: 100%;
 }
+/* main      */
+
+.our_feature{
+    display: flex;
+    align-items:center ;
+}
+
+.team_photo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem ;
+}
+/* feature */
+main{
+    font-family: "Work Sans", sans-serif;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.feature_details{
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+.our_feature_title{
+    font-size: 45px;
+    
+}
+.Quick_1{
+    color: #424242be;
+    font-weight: 500;
+}
+.Quick_2{
+    color: #ff8e0c;
+}
+.feature_description{
+    font-size: 1rem;
+}
